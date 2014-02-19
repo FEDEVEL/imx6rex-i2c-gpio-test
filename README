@@ -1,0 +1,15 @@
+http://www.imx6rex.com
+
+// To compile this file use this command:
+$ arm-linux-gnueabihf-gcc i2c-gpio-test.c -o i2c-gpio-test
+
+How to use this application:
+
+Use a link to connect these pins:
+J34.2 with J34.4
+J34.3 with J34.5
+
+The test will change the value of GPIO pins J34.2&3 and reads the level from pins J34.4&5.
+This test also can read the status of user button.
+
+
